@@ -41,7 +41,7 @@ test_set = test_datagen.flow_from_directory('dataset/test_set',
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 classifier.fit_generator(training_set,
-                         steps_per_epoch = 5213,
+                         steps_per_epoch = 8000,
                          epochs = 50,
                          validation_data = test_set,
                          validation_steps = 2000)
